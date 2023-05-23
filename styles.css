@@ -1,0 +1,100 @@
+#profile-picture {
+    border-radius: 100%;
+}
+
+.header {
+    background-color: #F1F7B5;
+    height: 75vh;
+}
+
+.navigation-bar {
+    background-color: #FD8A8A;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+}
+
+.footer-section {
+    background-color: #9EA1D4;
+}
+
+p {
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+.about-me {
+    display: flex;
+    background-color: #A8D1D1;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-description {
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+.projects-section {
+    background-color: #F1F7B5;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1800px;
+    height: 1200px;
+    margin-bottom: 100px
+}
+
+.project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.header-resume {
+    background-color: #F1F7B5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    float: left;
+    padding-bottom: 10px;
+}
+
+.project-description {
+    display: grid;
+    font-size: 22px;
+}
+
+table,
+td {
+    border: 4px solid #333;
+    padding: 7px;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.project-header {
+    background-color: #F1F7B5;
+    padding-left: 400px;   
+}
