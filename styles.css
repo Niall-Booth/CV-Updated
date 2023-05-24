@@ -48,7 +48,7 @@ p {
     justify-content: center;
 }
 
-.projects-display {
+#projects-display {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -107,18 +107,8 @@ tfoot {
     color: #fff;
 }
 
-.test-paragraph {
-    display: none;
-    text-align: center;
-}
-
-
 @media (max-width: 412px) {
-    .projects-display {
-        display: block;
-    }
-
-    .test-paragraph {
+    #projects-display {
         display: block;
     }
 }

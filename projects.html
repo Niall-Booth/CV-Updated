@@ -27,7 +27,7 @@
         </div>
     </section>
     <section class="projects-section">
-        <div class="projects-display">
+        <div id="projects-display">
             <h2 class="project-header">Projects</h2>
             <div class="project-item password-guessing-game">
                 <div class="card" style="width: 50rem;">
@@ -89,9 +89,14 @@
                     <li class="nav-item"><a href="./index.html" class="nav-link px-2 "><img src="./Assets/linkedin-logo.png" alt="" height="40px" style="padding-right: 10px;">Linkedin</a></li>
                 </ul>          
                 <p class="text-center">© Niall Booth</p>
-                <p class="test-paragraph">Testing</p>
+                <button type="button" onclick="myFunction()">Return the display type of p</button>
             </footer>
         </div>
     </section> 
+    <script>
+        function myFunction() {
+            alert(window.getComputedStyle(document.getElementById("projects-display"),null).display);
+        }
+    </script>
 </body>
 </html>
