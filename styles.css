@@ -107,9 +107,18 @@ tfoot {
     color: #fff;
 }
 
+.test-paragraph {
+    display: none;
+    text-align: center;
+}
+
 
 @media (max-width: 412px) {
     .projects-display {
+        display: block;
+    }
+
+    .test-paragraph {
         display: block;
     }
 }
