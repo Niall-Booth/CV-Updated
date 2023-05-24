@@ -108,91 +108,10 @@ tfoot {
     color: #fff;
 }
 
-.test-header-1 {
-    display: none;
-}
-
-.test-header-2 {
-    display: none;
-}
-
-.test-header-3 {
-    display: none;
-}
-
-.test-header-4 {
-    display: none;
-}
-
-.test-header-5 {
-    display: none;
-}
-
-.test-header-6 {
-    display: none;
-}
-
-.test-header-7 {
-    display: none;
-}
-
-.test-header-8 {
-    display: none;
-}
-
-.test-header-9 {
-    display: none;
-}
-
-@media (max-width: 300px) {
-    .test-header-1 {
-        display: block;
-    }
-}
-
-@media (max-width: 600px) {
-    .test-header-2 {
-        display: block;
-    }
-}
-
-@media (max-width: 900px) {
-    .test-header-3 {
-        display: block;
-    }
-}
 
 @media (max-width: 1200px) {
-    .test-header-4 {
+    .projects-display {
         display: block;
     }
 }
 
-@media (max-width: 1500px) {
-    .test-header-5 {
-        display: block;
-    }
-}
-
-@media (max-width: 1800px) {
-    .test-header-6 {
-        display: block;
-    }
-}
-
-@media (max-width: 2100px) {
-    .test-header-7 {
-        display: block;
-    }
-}
-
-@media (max-width: 2400px) {
-    .test-header-8 {
-        display: block;
-    }
-}
-@media (max-width: 2700px) {
-    .test-header-9 {
-        display: block;
-    }
-}
