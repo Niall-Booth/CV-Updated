@@ -50,10 +50,10 @@ p {
 
 .projects-display {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     width: 1800px;
-    height: 1200px;
+    height: 130vh;
     margin-bottom: 100px
 }
 
@@ -61,7 +61,26 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px 100px 20px 0px;
+}
+
+.project-header {
+    margin-bottom: 0px;
+    font-size: 70px;
+    padding-top: 10px;
+    grid-row-start: 1;
+}
+
+.password-guessing-game {
+    grid-row-start: 2;
+}
+
+.tic-tac-toe {
+    grid-row-start: 2;
+}
+
+.reddit-meme-collector {
+    grid-column-start: 1;
 }
 
 .header-resume {
@@ -94,7 +113,9 @@ tfoot {
     color: #fff;
 }
 
-.project-header {
-    background-color: #F1F7B5;
-    padding-left: 400px;   
+@media only screen and (max-width: 600px) {
+    .projects-display {
+        display: block;
+    }
 }
+
