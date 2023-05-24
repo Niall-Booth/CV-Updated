@@ -113,7 +113,7 @@ tfoot {
     color: #fff;
 }
 
-@media only screen and (max-width: 300px) {
+@media (max-width: 300px) {
     .projects-display {
         display: block;
     }
