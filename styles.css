@@ -109,7 +109,7 @@ tfoot {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 412px) {
     .projects-display {
         display: block;
     }
