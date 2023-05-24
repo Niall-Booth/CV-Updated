@@ -28,7 +28,7 @@
     </section>
     <section class="projects-section">
         <div class="projects-display">
-            <h2 class="project-header">Projects</h2>
+            <h2 class="project-header">Projects<p id="demo"></p></h2>
             <div class="project-item password-guessing-game">
                 <div class="card" style="width: 50rem;">
                     <img src="./Assets/password-guessing-game.PNG" class="card-img-top" alt="picture of a sunflower">
@@ -92,5 +92,10 @@
             </footer>
         </div>
     </section>
+
+    <script>
+        let width = screen.width;
+        document.getElementById("demo").innerHTML =  width + "px";
+    </script>
 </body>
 </html>

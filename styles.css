@@ -54,7 +54,6 @@ p {
     grid-template-rows: 1fr 1fr 1fr;
     width: 1800px;
     height: 130vh;
-    margin-bottom: 100px
 }
 
 .project-item {
