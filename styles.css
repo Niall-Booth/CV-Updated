@@ -112,6 +112,7 @@ tfoot {
 @media (max-width: 412px) {
     .projects-display {
         display: block;
+        height: 150vh;
     }
 }
 
